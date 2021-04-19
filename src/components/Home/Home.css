@@ -1,0 +1,13 @@
+.home-body{
+    min-height: 90vh;
+    background: rgb(0,212,255);
+    background: linear-gradient(0deg, rgb(0, 94, 218) 5%, rgba(53,61,87,1) 100%);
+}
+
+.home-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
