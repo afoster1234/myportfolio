@@ -1,0 +1,23 @@
+.nav-cont{
+    display: flex;
+    min-width: fit-content;
+    height: 70px;
+    background-color: black;
+}
+
+.nav-link{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    width: 125px;
+    height: fit-content;
+
+    border-radius: 20px;
+    background-color: blue;
+    transition: .5s;
+}
+
+.nav-link:hover {
+    background-color: yellowgreen;
+}

@@ -1,9 +1,14 @@
-import './App.css';
+import { BaseRouter } from './Routes';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <p>Portfolio is running...</p>
+    <div>
+      <Router>
+
+        <BaseRouter />
+
+      </Router>
     </div>
   );
 }
